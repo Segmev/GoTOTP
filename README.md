@@ -9,4 +9,5 @@ To build the application:
 
 go get github.com/andlabs/ui
 
-go build src/GoTOTP.go
+go build src/GoTOTP.go (for Windows, add -ldflags "-H windowsgui" to hide console)
+
